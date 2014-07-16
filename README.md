@@ -1,5 +1,5 @@
 
-到http://msysgit.github.io/下载msysgit并安装
+到 http://msysgit.github.io/ 下载msysgit并安装
 
 在D:/workfiles/下创建文件夹Git，打开git bash 然后进入到Git所在的文件夹
 
