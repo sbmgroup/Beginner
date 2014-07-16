@@ -3,11 +3,16 @@
 
 在D:/workfiles/下创建文件夹Git，打开git bash 然后进入到Git所在的文件夹
 
-在Git bash命令界面下执行 git clone https://github.com/sbmgroup/Beginner.git
+在Git bash命令界面下执行 
 
-Clone需要一定时间，等完毕后 执行命令 cd Beginner
+git clone https://github.com/sbmgroup/Beginner.git
+
+Clone需要一定时间，等完毕后 执行命令 
+
+`cd Beginner`
 
 现在我们创建一个分支，以你的名字命名，比如zhanglei,命令如下
+
 `git checkout -b zhanglei`
 
 此时，你可以在Beginner文件夹下新建一个文件，里面写上一些文字。
@@ -15,11 +20,13 @@ Clone需要一定时间，等完毕后 执行命令 cd Beginner
 再次回到git bash命令界面里，依次执行以下命令
 
 `git add .`
+
 `git commit -m "information added in readme"`
 
 我们需要将新分支推送到远程代码仓库里,在推送之前需要先一些设置，命令如下:
 
 `git config --global user.email "sbmzhcn@gmail.com"`
+
 `git config --global user.name "sbmzhcn"`
 
 注意，邮箱与名字填写你自己的
