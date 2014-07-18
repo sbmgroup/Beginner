@@ -1,0 +1,76 @@
+/* CSS Document */
+
+{ 
+   margin:0; 
+   padding:0;
+   }
+ body{ background:#e6e6e6;
+ }
+ img { border:0;
+	}
+ ul,li{
+	 list-style-type:none;
+	 }
+	 .top{ height:78px;
+	 width:1003px;
+	 margin:0 auto;}
+#logo{ float:left;
+padding:18px,28px,18px,40px;
+}
+h2{float:left;
+font-family:Arial, Helvetica, sans-serif;
+height:78px;
+padding-left:20px;
+} 
+.phone{ text-align:right; 
+
+	  }
+	  .email{ text-align:right;
+	 
+	  }
+	  .redevo{ text-align:right;
+	  }
+ .email a {
+	 color:#669b15;}
+	 #red {
+	 color:#03a4e8;}
+	 #twitter{
+		 color:#b90e38;}
+   .header{
+    height: 36px;
+    width: 100%;
+    background-color: #a62720;
+    font-size:14px;
+	margin:0 auto ;
+    }
+    #home,.header a:hover{
+    background: url(img/barr.jpg) right 6px no-repeat;
+    color: #000;
+    }
+    #home a,.header a:hover span{
+    color: #000;
+    background: url(img/barl.jpg) no-repeat left 6px;
+    display:block;
+    }
+    .header ul{
+    width: 1003px;
+    height: 36px;
+    margin: 0px;
+    padding-left:22px;
+	
+    }
+    .header ul li{
+    float:left;
+    margin-right:10px;
+    }
+    .header span{
+    padding-left:23px;
+    padding-right:24px;
+    }
+    .header a{
+    display:block;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+    line-height: 36px;
+    }
