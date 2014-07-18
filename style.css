@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+/*public */
+
+/*CSS Reset */
+
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a {
+	color:#F00;
+}
+a:hover {
+	color:#00F;
+}
+
+.clear {
+	clear:both;
+}
+body {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+p {
+	line-height: 1.5;
+}
+/*frame*/
+
+.frame {
+	width:1000px;
+	margin:0px auto 0px auto;
+}
+/*header*/
+.header {
+	width:1000px;
+	height:77px;
+}
+.header-left {
+	float:left;
+}
+.header-center {
+	padding-left:50px;
+	float:left;
+	line-height:77px;
+}
+.header-center span {
+	font-weight:bold;
+	font-size:30px;
+}
+.header-right {
+	padding:12px 20px;
+	float:right;
+	text-align:right;
+}
+.header-right ul li {
+	list-style:none;
+}
+.header-right span {
+	font-size:30px;
+	font-weight:bold;
+	line-height:77px;
+}
+.header a:link {
+	color:#0F0;
+}
+/*body*/
+.body {
+	width:1000px;
+	background:#E6E6E6;
+}
+/*bar*/
+#header {
+	
+	overflow:hidden;
+	padding:5px;
+	background-color:#a62720;
+}
+
+.nav li {
+	float:left;
+	margin-bottom:-5px;
+}
+.nav li a {
+	text-transform:capitalize;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	display:block;
+	padding:6px;
+	margin-left:45px;
+}
+.nav li a:hover {
+	background-color:#fff;
+	color:#000;
+}
+/*content*/
+.content {
+	width:959px;
+	margin:0px auto -10px auto;
+	overflow:visible;
+	background-color:#fff;
+}
+.content-up {
+	width:959px;
+}
+.content-up-left {
+	
+	float:left;
+}
+.content-up-right {
+	width:500px;
+	float:left;
+}
+.content-up-right h3 {
+	margin:20px auto 20px auto;
+	color:#A6271E;
+}
+.content-up-right {
+	
+}
+.content-center {
+	width:930px;
+	height:150px;
+	background-color:#D9D7D8;
+	margin:5px auto 0px auto;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px
+}
+.content-center ul li {
+	list-style:none;
+	float:left;
+	margin-left:12px;
+	margin-top:7px;
+	width:270px;
+	height:130px;
+	background-color:#E6E6E6;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px
+}
+.content-center-left {
+	margin:10px, 7px, auto 15px;
+	width:95px;
+	height:95px;
+	float:left;
+}
+.content-center-right {
+	width:140px;
+	float:left
+}
+.content-bottom {
+	width:910px;
+	height:643px;
+	margin:25px auto;
+}
+.content-bottom-left {
+	margin:auto, 22px, auto 26px;
+	width:224px;
+	height:643px;
+	float:left;
+}
+.content-bottom-left-up {
+	height:283px;
+	width:224px;
+	border:#CBC9CA solid 1px;
+	margin:0px 0px 22px 0px;
+}
+.content-bottom-left-up-up {
+	margin:0px;
+	width:224px;
+	height:32px;
+	background-color:#CBC9CA;
+	text-align:center;
+	line-height:32px;
+}
+.content-bottom-left-up-center ul li {
+	list-style:none;
+}
+.content-bottom-left-up-center ul li a:link {
+	color:#5F5F5F;
+}
+.content-bottom-left-up-center {
+	padding:auto;
+	width:224px;
+}
+.content-bottom-left-down {
+	height:225px;
+	width:224px;
+}
+.content-bottom-right {
+	margin-left:23px;
+	width:663px;
+	height:642px;
+	background-color:#F1F1F1;
+	float:left;
+}
+.content-bottom-right-up {
+	height:6px;
+	background-color:#a62720;
+	
+}
+.content-bottom-right-down{
+	width:663px;
+	height:636px;
+}
+.content-bottom-right-down-content{
+	margin:25px auto;
+	width:642px;
+	height:582px;
+	
+}
+.content-bottom-right-down-content  .right {
+	width:316px;
+	float:right;
+}
+.content-bottom-right-down-content .left {
+	width:316px;
+	float:left;
+	
+}
+.content-bottom-right-down-content .left h3 {
+	margin:19px auto 11px;
+	
+	
+}
+.content-bottom-right-down-content ul.left li {
+	width:316px;
+	height:138px;
+	background-color:#FFF;
+	margin-bottom:10px;
+	border:#cdcdcd solid 1px;
+	
+}
+.content-bottom-right-down-content-right{
+	width:316px;
+	float:right;
+}
+.content-bottom-right-down-content-right h3{
+	margin:19px auto 11px;
+}
+.content-bottom-right-down-content .right ul.right li{
+	
+	width:316px;
+	height:138px;
+	background-color:#FFF;
+	margin-bottom:10px;
+	float:right;
+	border:#cdcdcd solid 1px;
+	
+}
+.content-bottom-right-down-content-left {
+	
+	width:134px;
+	height:138px;
+	float:left;
+}
+.content-bottom-right-down-content-right {
+	width:182px;
+	float:left
+}
+
+/*footer*/
+.footer {
+	height:55px;
+	width:1000px;
+	background-image:url(iamges/footer.jpg);
+	text-align:center;
+	line-height:55px;
+}
+.footer span {
+	font-size:16px;
+}
