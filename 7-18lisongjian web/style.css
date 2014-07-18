@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+}
+.frame{
+	width:1000px;
+	margin:0px auto 0px auto;
+	
+}
+.header {
+	width:1000px;
+	height:77px;
+	//border:black 1px solid;
+}
+.logo {
+	float:left;
+	}
+.right-logo {
+	float:right;
+	}
+.top-list {
+	list-style-type:none;
+	text-align:right;	
+	color:block;
+	font-size:10px;
+	}
+.header-right{
+	width:195px;
+	height:77px;
+	float:right;
+	
+}
+.header-right ul li{
+	
+}
+.header span{
+	font-size:30px;
+	font-weight:bold;
+	line-height:70px;
+	margin:30px 0px 38px 35px;
+}
+
+.header a:link{
+	color:#0F0;
+}
+.nav{
+	height:1100px;
+	width:1000px;
+	background:#E6E6E6;
+	
+}
+
+.bar{
+	height:36px;
+	background-color:#A62720;
+	
+}
+.bar ul li{
+	float:left;
+	margin:auto 0px auto 22px;
+	list-style:none;
+	padding-top:10px;
+	
+}
+.bar ul li a{
+	text-decoration:none;
+	
+}
+.bar ul li a:link{
+	color:#FFF;
+	
+}
+
+.bar ul li a:hover{
+	color:#000;
+	
+}
+.email{
+	color:green;
+	}
+.s{color:blue;
+	}	
+.t{
+	color:red;}	
+.neirong{
+	width:960px;
+	height:230px;
+	background-color:#FFF;
+	margin-top:20px;
+	}
+.neirong1{
+	float:left;
+	margin:30px 0px 38px 35px;
+	}
+.neirong h3{
+	color:#a62720;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:15px 0px 0px 120px;
+	margin-left:230px;}
+.neirong2 {
+	padding-top:2px;
+	padding-bottom:10px;
+	padding-left:50px;
+	width:435px;
+}
+.neirong3{
+	font-size:12px;
+	margin-left:150px;
+	padding-left:200px;
+	padding-bottom:8px;
+	width:470px;
+}
+.neirong a {
+	background: url("../images/luosi.png") no-repeat;
+	background-position: 750px;
+	margin-bottom: 10px;
+}
+.detail {
+	//float: right;
+	display:block;
+	height:20px;
+	color:#a62720;
+	font-size:12px;
+	text-align: right;
+	margin-bottom: 10px;
+	margin-right: 110px;
+	}
+.crusher{
+		width:960px;
+		height:173px;
+		background-color:d9d7d8;
+		//border:1px solid red;
+		margin-top:0px;
+		}
+.zuo{
+	float: left;
+	padding: 65px 0px 20px 0px;
+	margin-left: 15px;
+
+	}
+.you{
+	float: left;
+	padding: 65px 0px 20px 0px;
+	margin-left: 15px;
+
+	}
+.mark1{
+	margin-left: 150px;
+    
+	}
+.crusher1{
+	float:left;
+	heigth:160px;
+	width:269px;
+	//padding:15px 15px 15px 12px;
+	//margin:10px 10px 670px 10px；;
+	//border:1px solid red;
+	margin-left:20px;
+	margin-top:20px;
+	border-radius:10px;
+	background-color: #efefef;
+}
+.hdbackground{
+	width:237px;
+	height:60px;
+	background-color:#d9d7d8;
+
+	}
+.content2{
+	width:237px;
+	height:283px;
+	background-color:#ffffff;
+	float:left;
+	}
+	.text2{
+		margin-right:110px;
+		}
+	.text3{
+		
+	    margin-left:130px;
+		margin-top:180px;
+		}
+.content3{
+	    width:665px;
+		heigth:655px;
+		background-color:#f1f1f1;
+	    border:1px solid red;
+		float:left;
+		margin-left:40px;
+	}
+	.neirong4{
+		width:320px;
+		heigth:140px;
+		background-color:#ffffff;
+	    border:1px solid red;
+		float:left;
+		}
+.content{
+	height:1078px;
+	width:959px;
+	margin:0px auto -10px auto ;
+	overflow:visible;
+	background-color:#fff;
+}
+.footer{
+	height:55px;
+	width:1000px;
+	background-image:url(iamges/footer.jpg);
+	text-align:center;
+	line-height:55px;
+	
+}
+.footer span{
+	font-size:16px;
+}
