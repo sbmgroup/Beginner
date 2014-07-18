@@ -1,0 +1,35 @@
+/* CSS Document */
+
+#big_box{
+	background-color:#999;
+	height:156px;
+	width:960px;
+	border-radius:10px;}
+	
+#box{
+	background-color:#900;
+	height:100px;
+	width:250px;
+	border-radius:10px;
+	margin:10px;
+	padding:10px;
+	float:left;
+	}
+	
+#red_box{
+	background-color:#900;
+	height:10px;
+	width:850px;
+	}
+	
+#products{
+	background-color:#999;
+	height:2000px;
+	width:850px;
+	}
+	
+#product{
+	background-color:white;
+	height:125px;
+	width:270px;
+	}
