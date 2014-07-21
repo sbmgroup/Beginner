@@ -1,0 +1,275 @@
+@charset "utf-8";
+* {margin:0;
+  padding:0;
+}
+#container{
+	width:1003px;
+	margin:0 auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px
+}
+.head{
+	width:1003px;
+	height:77px
+}
+.head h1 a img{
+	margin-left:51px;
+	margin-top:11px;
+	float:left
+}
+.head h1 span{
+	font-weight:bold;
+	float:left;
+	padding-left:30px;
+	margin-top:30px;
+}
+.head ul{
+	list-style-type:none;
+	float:right;
+	width:197px;
+	height:76px;
+	margin-top:11px;
+	margin-right:20px
+}
+.head ul li{
+	line-height:17px;
+	float:right;
+}
+.black a{
+	color:black;
+}
+.green a{
+	color:green;
+}
+.blue{
+	color:blue;
+}
+.red{
+	color:red;
+}
+.header{
+	height: 36px;
+	width: 1003px;
+	background-color: #a62720;
+	font-size:14px;
+	}
+	#home,.header a:hover{
+	background: url(images/barr.jpg) right 6px no-repeat;
+	color: #000;
+	}
+
+#home a,.header a:hover span{
+	color: #000;
+	background: url(images/barl.jpg) no-repeat left 6px;
+	display:block;
+	}
+.header ul{
+	list-style-type: none;
+	width: 1003px;
+	height: 36px;
+	margin: 0px;
+	padding-left: 22px;
+	}
+.header ul li{
+	float: left; 
+	margin-right:10px;
+	}
+.header span{
+	padding-left:23px;
+	padding-right:24px;
+	}
+.header a{
+	display:block;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	line-height: 36px;
+	}
+#middle{
+	width:1003px;
+	height:1063px;
+	background:url(images/down.png)  0 0 repeat-y;
+}
+.middle-a{
+	width:980px;
+	height:215px;
+}
+.middle-a img{
+	margin-top:30px;
+	margin-left:70px;
+	float:left;
+}
+.middle-a h2{
+	float:right;
+	margin-top:18px;
+	margin-right:450px;
+	color:#a62720;
+}
+ .middle-a p img{
+	 margin-top:7px;
+	 margin-left:50px;
+ }
+ .font{
+	width:500px;
+	margin-left:420px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;	
+ }
+ .font-a{
+	 margin-top:8px;
+	 margin-right:47px;
+	 float:right;
+	 font-size:14px;	
+ }
+ .middle-a a{
+	color:#A72620;
+	background:url(images/tool.gif) no-repeat top left;
+	padding-left:22px;
+	padding-bottom:3px;
+	width:103px;
+	margin-left:580px;
+ }
+ .middle-b{
+	 background:url(images/scroll.png) no-repeat center center;
+	 margin-top:22px;
+	 width:959px;
+	 height:189px;
+	 margin:0 auto;
+ }
+ .middle-b ul{
+	list-style-type: none;
+	float:left;
+	margin:11px 0 24px 8px;
+ }
+ .left img{
+	padding-left:27px;
+	padding-top:61px;
+	float:left;
+ }
+  .middle-b ul li{
+	margin-right:12px;
+	width:271px;
+	float:left;
+  }
+.middle-b ul li img{
+	float:left;
+	padding-top:14px;
+	padding-left:14px;
+ }
+ .middle-b ul p{
+	margin-left:113px;
+	margin-top:31px;
+	text-align:left;
+ }
+ .middle-b ul li p a{
+	color:#A72620;
+	padding-bottom:9px
+ }
+ .right img{
+	padding-left:7px;
+	padding-top:61px;
+	float:left;
+ }
+ .right-side{
+	width:225px;
+	padding-left:25px;
+	float:left;
+}
+.right-side h4{
+	background:url(images/new-til.png) no-repeat;
+    line-height:32px;
+	text-align:center;
+}
+.list{
+	border: #CBC9CA solid 1px;
+	widht:225px;
+	height:250px;
+}
+.list ul {
+	width:215px;
+	list-style:none;
+}
+.list ul li{
+	padding-top:6px;
+	background:url(images/dot.gif) no-repeat 8px 12px;	
+}
+.list ul li a{
+	display:inline-block;
+    padding-left:22px;
+	color:#5E5E5E;
+}
+.link{
+	display:block;
+	background:url(images/tool.gif) no-repeat 78px 17px;
+	padding:17px 0 3px 100px;
+}
+.down-a{
+	width:225px;
+	line-height:30px;
+	background:url(images/sound.png) no-repeat ;
+	font-weight:bold;
+	font-size:10px;
+	margin-top:20px;
+	padding-left:20px;
+	color:#FFF;
+}
+.player{
+	height:200px;
+	background:url(images/video.png) no-repeat;
+}
+.middle-down{
+	width:655px;
+	overflow:hidden;
+	float:left;
+	margin-right:24px;
+    background: #F1F1F1 url(images/middle-down.png) repeat-x;
+	padding-left:0px;
+}
+.middle-down ul{
+	list-style:none;
+	margin-top:8px; 
+}
+.middle-down ul li{
+	display:inline;
+	background-color:#FFF;
+	float:left;
+	height:137px;
+	width:317px;
+	border:#CDCDCD solid 1px;
+    margin-right:8px;
+	margin-top:8px;
+}
+.middle-down ul li img {
+	float:left;
+	padding-left:16px;
+	margin-top:17px;
+}
+.middle-down ul li h4 {
+	width:41px;
+	float:right;
+	padding-right:120px;
+	padding-top:24px;
+}
+.middle-down ul li p{
+	padding-top:12px;
+	width:140px;
+	float:right;
+	padding-right:24px;
+}
+.middle-down ul li a{
+	width:96px;
+	margin-top:8px;
+	height:18px;
+	float:right;
+	background:url(images/tool.gif) no-repeat;
+	padding-left:23px;
+}
+#bottom{
+	background:#A62720 url(images/footer.png) repeat-x;
+	border-left:#A62720 solid 22px;
+	border-right:#A62720 solid 22px;
+}
+#footer p{
+	padding-top:10px;
+	line-height:40px;
+}CSS Document */
