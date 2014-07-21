@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	}
+*{
+	margin:0;
+	padding:0;
+	}
+.container{
+	width:1000px;
+	margin:0 auto;
+	height:1250px;
+	background:#e6e6e6;
+	}
+#header{
+	width: 1000px;
+	height: 78px;
+	background:#FFF;
+	
+}
+#header_logo{
+	float:left;
+    width:440px;
+	font-family:Arial, Helvetica, sans-serif;
+    height:80px;
+}
+#header_logo img{
+	margin-left:30px;
+	margin-top:0px;}
+#header_logo h2{
+	float:right;
+	margin-left:-8px;
+	padding-top:18px;
+	}
+#header_right{
+	width:400px;
+	height:80px;
+	float:right;
+	text-align:right;
+}
+#header_right ul{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	}
+#green a:visited{
+	color:#649b19;}
+#blue a:visited{
+	color:#02a6e3;}
+#contener{
+	width:1000px;
+	height:1000px;
+	clear:both;
+	}
+#zenith{
+	height:200px;
+	width:1000px;}
+#slide{
+	clear:both;
+	width:1000px;
+	margin:0;}
+#menu{
+	font-size:14px;
+	background:url(images/under.gif);
+    list-style:none;
+	height:35px;
+	padding::0 0 0 8px;
+	}
+#menu li{
+	float:left;
+}
+#menu li a{
+	display:block;
+	line-height:35px;
+	text-decoration:none;
+	padding::0 0 0 14px;
+	margin-left:50px;
+}
+#menu li a:link{
+	color:#FFF;
+	}
+#menu li a:visited{
+	color:#FFF;
+	}
+	
+#menu li a:hover{
+	color:#000;
+	background-color:#FFF;
+	border-radius:5px;
+	}
+#menu li a strong{
+	display:block;
+	}
+#menu li a:hover strong{
+	background-color:#FFF;
+	border-radius:5px;
+}	
+#main{
+	clear:both;
+	width:960px;
+	height:1095px;
+	margin:0 auto;
+	background-color:#FFF;
+	}
+#zenith{
+	margin:0 auto;
+	width:960px;
+	height:213px;
+	}
+#zenithleft{
+	width:280px;
+	float:left;
+	margin-left:47px;
+	margin-top:30px;
+}
+#zenithright{
+	height:188px;
+	width:495px;
+	float:left;
+	margin-left:48px;
+	margin-top:15px;
+	}
+h4{
+	color:#900;}
+#zenithright img{
+	margin-top:5px;
+	margin-bottom:5px;
+	}
+p{
+	font-size:12px;
+	font-family:;
+}
+.more{
+float:left;
+padding-left:160px;
+padding-top:-60px;
+vertical-align:text-bottom;}
+#middle{
+	clear:both;
+	height:150px;
+	width:929px;
+	border-radius:10px;
+	background-color:#d9d7d8;
+	margin-left:15px;
+	}
+#middle img{
+	float:left;
+	padding-left:8px;
+	padding-top:55px;
+	}
+#mleft{
+	float:left;
+	height:132px;
+	width:270px;
+	border-style:solid;
+	border-color:#FFF;
+	border-width:1px;
+	margin-left:3px;
+	margin-top:10px;
+	background-image:url(images/machine/jaw%20crusher.jpg);
+	}
+.words{
+	padding-left:120px;
+	padding-top:12px;
+	font-size:12px;}
+.moredetail{
+	padding-left:150px;
+	padding-top:20px;
+	color:#a62720;
+	/* [disabled]font-size:14px; */
+}
+#mmiddle{
+	float:left;
+	height:132px;
+	width:270px;
+	border-style:solid;
+	border-color:#FFF;
+	border-width:1px;
+	margin-left:11px;
+	margin-top:10px;
+	background-image:url(images/machine/cone%20crusher.jpg);
+	}
+#mright{
+	float:left;
+	height:132px;
+	width:270px;
+	border-style:solid;
+	border-color:#FFF;
+	border-width:1px;
+	margin-left:11px;
+	margin-top:10px;
+	background-image:url(images/machine/cs.jpg);}
+#middle img{
+	float:left;
+	padding-left:8px;
+	padding-top:55px;
+	}
+#bottom{
+	height:720px;
+	width:929px;
+	background:url(images/lline.jpg) top no-repeat;
+	margin-left:15px;}
+#bottomleft{
+	clear:both;
+	width:225px;
+	height:550px;
+	margin-left:15px;
+	float:left;
+	}
+.circle{
+padding-left:70px;
+padding-top:15px;
+font-size:14px;}
+.circle a:visited{
+color:#3562a5;}
+#new{
+	height:285px;
+	width:225px;
+	background:url(images/single%20fillet.gif) no-repeat #FFF;
+	border:#cacaca 1px solid;
+	margin-top:25px;
+}
+#new p{
+  padding-left:70px;
+  padding-top:5px;
+  font-size:14px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  color:#5f5f5f;}
+
+#new ul{
+  list-style-image:url(images/dot.gif);
+  padding-top:12px;
+  padding-left:20px;
+}
+#new ul li{
+  padding-top:10px;
+}
+#new ul li a{
+  vertical-align:text-bottom;
+  color:#737373;
+  font-size:14px;}
+#bottomright{
+  height:680px;
+  width:665px;
+  float:right;
+  margin-top:25px;
+  background:url(images/redline.jpg) no-repeat;
+  background-color:#f1f1f1;}
+ #bottomright ul{
+ padding-top:15px;
+  width:650px;
+ list-style-type:none;
+ margin-left:8px;}
+ #bottomright ul li{
+ width:303px;
+ height:138px;
+ margin:10px;
+ border:#cecccd 1px solid;
+ float:left;
+ }
+ .ccircle{
+padding-left:150px;
+padding-top:16px;
+float:left;
+font-size:14px;}
+.ccircle a:visited{
+color:#3562a5;}
+ #one{
+ background:url(images/machine/glj.jpg);}
+ h8{
+ float:left;
+ padding-left:135px;
+ padding-top:10px;
+ color:#0F0F0F;
+ font-weight:bold;} 
+ .tablep{
+ padding-left:135px;
+ padding-top:32px;}
+ #two{
+ background:url(images/machine/02.jpg);}
+ #three{
+ background:url(images/machine/03.jpg);}
+ #four{
+ background:url(images/machine/04.jpg);
+ }
+ #five{
+ background:url(images/machine/05.jpg);}
+ #six{
+ background:url(images/machine/06.jpg);}
+ #seven{
+ background:url(images/machine/07.jpg);}
+ #eight{
+ background:url(images/machine/08.jpg);}
+ #under{
+ background:url(images/footer.gif);
+ width:1000px;
+ height:55px;}
+ #under p{
+ padding-top:25px;
+ padding-left:145px;}
