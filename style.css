@@ -5,6 +5,7 @@ body {
 	margin:0px;
 	padding:0px;
 	font-size:12px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 .frame{
 	width:1000px;
@@ -14,10 +15,12 @@ body {
 .header {
 	width:1000px;
 	height:77px;
-	//border:black 1px solid;
+    border:#e6e6e6 1px solid;
 }
 .logo {
 	float:left;
+	margin-left:40px;
+	margin-top:10px;
 	}
 .right-logo {
 	float:right;
@@ -38,6 +41,7 @@ body {
 	
 }
 .header span{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size:30px;
 	font-weight:bold;
 	line-height:70px;
@@ -48,37 +52,46 @@ body {
 	color:#0F0;
 }
 .nav{
-	height:1100px;
+	height:1200px;
 	width:1000px;
 	background:#E6E6E6;
-	
+/*    border:4px solid #e6e6e6;*/
 }
 
 .bar{
 	height:36px;
 	background-color:#A62720;
 	
+	
 }
 .bar ul li{
 	float:left;
-	margin:auto 0px auto 22px;
+	margin:auto 20px auto 22px;
 	list-style:none;
-	padding-top:10px;
+	padding-top:5px;
+	font-size:16px;
 	
 }
 .bar ul li a{
-	text-decoration:none;
+	color:#FFF;
+	text-decoration:none;}
+	
+.bar ul li a:hover{
+	
+	background:white;
+	color:black;
+	border-radius:8px;
+	margin-top:5px;
 	
 }
+
 .bar ul li a:link{
 	color:#FFF;
 	
 }
 
-.bar ul li a:hover{
-	color:#000;
-	
-}
+
+
 .email{
 	color:green;
 	}
@@ -91,33 +104,44 @@ body {
 	height:230px;
 	background-color:#FFF;
 	margin-top:20px;
+	margin-left:20px;
 	}
 .neirong1{
 	float:left;
 	margin:30px 0px 38px 35px;
+	
 	}
 .neirong h3{
 	color:#a62720;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
 	padding:15px 0px 0px 120px;
-	margin-left:230px;}
+	margin-left:249px;
+    //border:1px solid red;
+	height:5px;
+}
 .neirong2 {
 	padding-top:2px;
 	padding-bottom:10px;
-	padding-left:50px;
-	width:435px;
+	padding-left:55px;
+	width:450px;
+	
 }
 .neirong3{
 	font-size:12px;
-	margin-left:150px;
+	margin-top:0px;
+	margin-left:170px;
 	padding-left:200px;
-	padding-bottom:8px;
+	padding-bottom:0px;
 	width:470px;
+	//border:1px solid red;
 }
 .neirong a {
 	background: url("../images/luosi.png") no-repeat;
-	background-position: 750px;
+	background-position: 600px;
 	margin-bottom: 10px;
+	
+	//border:1px solid red;
 }
 .detail {
 	//float: right;
@@ -127,7 +151,7 @@ body {
 	font-size:12px;
 	text-align: right;
 	margin-bottom: 10px;
-	margin-right: 110px;
+	margin-right:270px;
 	}
 .crusher{
 		width:960px;
@@ -136,6 +160,8 @@ body {
 		//border:1px solid red;
 		margin-top:0px;
 		}
+.crusher p{
+	padding-left:100px;}		
 .zuo{
 	float: left;
 	padding: 65px 0px 20px 0px;
@@ -166,54 +192,80 @@ body {
 }
 .hdbackground{
 	width:237px;
-	height:60px;
+	height:30px;
 	background-color:#d9d7d8;
-
+    margin:0px;
 	}
 .content2{
 	width:237px;
-	height:283px;
+	height:480px;
 	background-color:#ffffff;
 	float:left;
 	}
-	.text2{
-		margin-right:110px;
-		}
+	
+	.texte2{
+		 padding-left:130px;}
 	.text3{
-		
-	    margin-left:130px;
+		background: url("../images/luosi.png") no-repeat;
+	   /* background-position:130px;*/
+	    margin-left:90px;
 		margin-top:180px;
+		padding-left:25px;
+		
 		}
 .content3{
 	    width:665px;
-		heigth:655px;
+		heigth:660px;
 		background-color:#f1f1f1;
-	    border:1px solid red;
+	    //border:1px solid red;
 		float:left;
-		margin-left:40px;
+		margin:15px 10px 5px 50px;
+	
 	}
-	.neirong4{
-		width:320px;
-		heigth:140px;
-		background-color:#ffffff;
-	    border:1px solid red;
-		float:left;
+	.block{
+		width:665px;
+		height:5px;
+		background-color:#a62720;
+		
 		}
+.neirong4{
+		width:321px;
+		heigth:120px;
+		background-color:#ffffff;
+	    border:5px solid #f1f1f1;
+		float:left;
+		margin-bottom:15px;
+		margin-top:10px;
+		}
+.text4{width:171px;
+		heigth:36px
+	   margin-right:80px;
+		float:right; 
+	}
+.text5{
+	width:173px;
+		heigth:75px;
+		background-color:#ffffff;
+	   //border:1px solid red;
+		float:right;
+	}	
+	
 .content{
-	height:1078px;
-	width:959px;
+	height:1290px;
+	width:1000px;
 	margin:0px auto -10px auto ;
 	overflow:visible;
 	background-color:#fff;
 }
 .footer{
-	height:55px;
+	clear:both;
+	background-color:#a62720;
 	width:1000px;
-	background-image:url(iamges/footer.jpg);
-	text-align:center;
-	line-height:55px;
+	height:50px;
+	//border:1px solid red;
+	margin-top:80px;
+	}
+.footer p{
 	
-}
-.footer span{
-	font-size:16px;
-}
+	text-align:center;
+	margin-top:10px;}
