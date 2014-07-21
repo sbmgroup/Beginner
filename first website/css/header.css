@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;list-style:none;}
+body{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:#E6E6E6;
+	}
+#container{
+	background:#E6E6E6;
+	text-align:center;
+	margin:0 auto;
+	width:1000px;
+	height:1232px;
+	}
+#header{
+	width:1000px;
+	height:77px;
+	background:#FFF;
+   }
+#header_Logo{
+	width:auto;
+	float:left;
+	vertical-align:middle;
+	margin-left:15px;
+	margin-top:7px;
+	}
+#header_title{
+	float:left;
+	margin-top:23px;
+	font-size:24px;
+	margin-left:13px;
+	}
+p.right{
+	margin-top:5px;
+	text-align:right;
+	}
+li{
+	float:left;
+	margin-left:40px;
+	margin-top:10px;
+	}
+li.square_first{
+	background:url(../img/square.gif) no-repeat;
+	padding-left:20px;
+	margin-top:15px;
+	width:200px;
+	margin-left:50px;
+	}
+li.square_second{
+	background:url(../img/square.gif) no-repeat;
+	padding-left:20px;
+	width:200px;
+	margin-left:50px;
+	}
+ul.left{
+	list-style-image:url(../img/square.gif);
+	text-align:left;
+	margin-left:-40px;
+	width:225px;
+	}
+img.bottom {
+	vertical-align:text-bottom;
+	}
+#header_right{
+	float:right;
+	margin-right:22px;
+	margin-top:0px;
+	height:70px;
+	}
+#middle{
+	height:1100px;
+	width:1000px;
+	}
+#middle_title{
+	background:#A62720;
+	height:36px;
+	width:1000px;
+	}
+ul#nav li a{
+	display:inline-block;
+	color:#FFF;
+	text-decoration:none;
+	font-size:14px;
+	}
+ul#nav li a:hover{ background:#FFF; color:#000; height:31px; width:88px; background:url(../img/navigation.gif); margin-left:-19px;} 
+#middle_down{
+	width:958px;
+	height:1063px;
+	background:#FFF;
+	margin-left:21px;
+	}
+#middle_display{
+	float:left;
+	}
+#middle_company{
+	overflow:hidden;
+	}
+#middle_company_left{
+	float:left;
+	margin-left:47px;
+	margin-top:31px;
+	}
+#middle_company_right{
+	float:left;
+	margin-left:45px;
+	}
+#middle_flow{
+	float:left;
+	border:1px solid #bcbcbc;
+	text-align:center;
+	-webkit-border-radius:10px;
+	height:154px;
+	width:932px;
+	margin-left:12px;
+	margin-top:20px;
+	background:#D9D7D8;
+	}
+#flow_left{
+	background:url(../img/jaw%20crusher.jpg) no-repeat;
+	height:132px;
+	width:269px;
+	float:left;
+	margin:10px 10px;
+	}
+#flow_up{
+	text-align:left;
+	float:right;
+	margin-right:5px;
+	margin-top:25px;
+	}
+#flow_middle{
+	background:url(../img/cone%20crusher.jpg) no-repeat;
+	height:132px;
+	width:269px;
+	float:left;
+	margin:10px -3px;
+	}
+#flow_right{
+	background:url(../img/cs.jpg) no-repeat;
+	height:132px;
+	width:269px;
+	float:left;
+	margin:10px 11px;
+	}
+#end{
+	height:668px;
+	width:909px;
+	text-align:center;
+	margin-left:25px;
+	margin-top:10px;
+	}
+#end_left{
+	background:url(../img/player.jpg) no-repeat bottom center;
+	float:left;
+	text-align:center;
+	height:529px;
+	width:224px;
+	}
+#end_left_up{
+	background:url(../img/single%20fillet.gif) no-repeat;
+	width:224px;
+	height:32px;
+	}
+#end_left_down{
+	float:left;
+	width:222px;
+	height:252px;
+	border:solid #CCC;
+	border-width:1px;
+	}
+#end_left_photo{
+	float:left;
+	}
+#end_player{
+	height:224px;
+	width:224px;
+	margin-top:21px;
+	}
+#end_right{
+	float:left;
+	height:635px;
+	width:662px;
+	margin-left:20px;
+	background:url(../img/red%20line.gif) no-repeat #F1F1F1;
+	}
+li.feeder{
+	background:url(../img/feeder.jpg) no-repeat;
+	height:118px;
+	width:190px;
+	margin-left:8px;
+	margin-top:32px;
+	text-align:left;
+	padding-left:130px;
+	padding-top:20px;
+	line-height:1.5;
+	}
+li.mtm{
+	background:url(../img/mtm.jpg) no-repeat;
+	height:118px;
+	width:190px;
+	margin-left:8px;
+	margin-top:32px;
+	text-align:left;
+	padding-left:130px;
+	padding-top:19px;
+	line-height:1.5;
+	}
+li.cone{
+	clear:both;
+	background:url(../img/cone.jpg) no-repeat;
+	height:118px;
+	width:190px;
+	margin-left:8px;
+	margin-top:8px;
+	text-align:left;
+	padding-left:130px;
+	padding-top:20px;
+	line-height:1.5;
+    }
+li.hammer{
+	background:url(../img/hammer.jpg) no-repeat;
+	height:118px;
+	width:190px;
+	margin-left:8px;
+	margin-top:8px;
+	text-align:left;
+	padding-left:130px;
+	padding-top:19px;
+	line-height:1.5;
+	}
+li.conecs{
+	clear:both;
+	background:url(../img/cone%20cs.jpg) no-repeat;
+	height:118px;
+	width:190px;
+	margin-left:8px;
+	margin-top:8px;
+	text-align:left;
+	padding-left:130px;
+	padding-top:19px;
+	line-height:1.5;
+	}
+li.sieve{
+	background:url(../img/sieve.jpg) no-repeat;
+	height:118px;
+	width:190px;
+	margin-left:8px;
+	margin-top:8px;
+	text-align:left;
+	padding-left:130px;
+	padding-top:19px;
+	line-height:1.5;
+	}
+li.i_crusher{
+	background:url(../img/impact%20crusher.jpg) no-repeat;
+	height:118px;
+	width:190px;
+	margin-left:8px;
+	margin-top:8px;
+	text-align:left;
+	padding-left:130px;
+	padding-top:19px;
+	line-height:1.5;
+	}
+li.impact{
+	background:url(../img/impact.jpg) no-repeat;
+	height:118px;
+	width:190px;
+	margin-left:8px;
+	margin-top:8px;
+	text-align:left;
+	padding-left:130px;
+	padding-top:19px;
+	line-height:1.5;
+	}
+a.feeder{
+	background:url(../img/gear.gif) no-repeat bottom left;
+	margin-left:30px;
+	padding-left:25px;
+	float:left;
+	height:20px;
+	margin-top:5px;
+	}
+h2.title{
+	text-align:left;
+	margin-top:10px;
+	}
+h2.color{
+	text-align:center;
+	vertical-align:middle;
+	padding-top:5px;
+	}
+img.local{
+	margin-top:11px;
+	margin-bottom:10px;
+	}
+a.company{
+	text-align:left;
+	font-size:14px;
+	}
+a.right{
+	text-align:right;
+	}
+a.left{
+	float:left;
+	background:url(../img/gear.gif) bottom left  no-repeat ;
+	padding-top:10px;
+	margin-left:80px;
+	padding-left:25px;
+	}
+img.left{
+	float:left;
+	margin-left:15px;
+	margin-top:62px;
+	vertical-align:middle;
+	}
+img.right{
+	float:right;
+	margin-right:15px;
+	margin-top:62px;
+	vertical-align:middle;
+	}
+p.control{
+	vertical-align:text-top;
+	}
+#footer{
+	background:url(../img/footer.gif) no-repeat;
+	height:54px;
+	width:1003px;
+	padding-top:25px;
+	}
+
+
