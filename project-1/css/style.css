@@ -1,0 +1,507 @@
+*{margin: 0; padding: 0; list-style: none;}
+body{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #bfbfbf;
+}
+.container{
+	height: 1232px;
+	width: 1003px;
+	background: #e6e6e6;
+	margin: 0 auto;
+}
+.header{
+	background: #ffffff;
+	padding-top: 13px;
+	padding-bottom: 17px;
+}
+.logo{
+	margin-left: 51px;
+	float: left;
+}
+.header h1{
+	line-height: 49px;
+	margin-left: 36px;
+	font-size: 26px;
+	display: inline-block;
+	letter-spacing: -0.83px;
+}
+.information{
+	float: right;
+	margin-right: 21px;
+	text-align: right;
+	margin-top: 1px;
+}
+.phone{
+	background: url(../img/phone.gif) no-repeat;
+	padding-left: 24px;
+	letter-spacing:-0.62px;
+}
+.phone a{
+	color: #333333;
+}
+.email{
+	background: url(../img/email.gif) no-repeat;
+	margin-left: 40px;	
+	letter-spacing: -0.72px;
+}
+.email a{color: #629f16;}
+.email a:hover{
+	color: #e8480f;
+}
+.redevo{
+	background: url(../img/redevo.gif) no-repeat;
+	margin-left: 63px;
+	float: left;
+	padding-left: 24px;
+	letter-spacing: -0.7px;
+	margin-top: 1px;
+}
+.redevo a{
+	color: #03a7e4;
+}
+.redevo a:hover{
+	color: #03e4d7;
+}
+.twitter{
+	background: url(../img/twitter.gif) no-repeat;
+	margin-left: 125px;
+    margin-top: 1px;
+}
+.twitter a:hover{
+	color: #03a7e4;
+}
+
+.middle{
+	height: 1099px;
+}
+.navigation{
+	margin-top: -2px;
+	height: 36px;
+	width: 1003px;
+	background: #a62720;
+}
+.nav{
+	font-size: 14.5px;
+	margin-left: 8px;
+	letter-spacing: 0.7px;
+}
+.navigation ul.nav li{
+	float: left;
+}
+.home{
+    margin-left: 14px;
+}
+.about_zenith{
+	margin-left: 14px;
+	margin-right: 4px;
+}
+.service{
+	margin-left: -4px;
+}
+.contact{
+	margin-left: -3px;
+}
+.navigation ul.nav li a{
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block;
+}
+ul.nav li a span{
+	padding-left: 22px;
+	padding-right: 24px;
+	line-height: 36px;
+	display: block;
+}
+ul.nav li a:hover{
+	color: #000;
+	background:#ffffff; 
+	background: url(../img/barr.jpg) no-repeat right 7px;
+	
+}
+ul.nav li a:hover span{
+	background: url(../img/barl.jpg) no-repeat left 7px;
+}
+
+
+.middle_bg{
+	height: 1064px;
+	margin-left: 22px;
+	margin-right: 22px;
+	background: #ffffff;
+}
+.company{
+	overflow: hidden;
+}
+.company img{
+	float: left;
+	margin-left: 46px;
+	margin-top: 29px;
+}
+.company h2{
+	float: left;
+	color: #a6271e;
+	padding-top: 18px;
+	margin-left: 42px;
+	width: 585px;
+}
+div.text{
+	background: url(../img/line.gif) no-repeat;
+	width: 506px;
+	float: right;
+	margin-right: 81px;
+	margin-top: 12px;
+}
+.text p{
+	font-size: 13.45px;
+	padding-top: 14px;
+	letter-spacing: 0.011em;
+	line-height: 14px;
+}
+.display{
+	clear: both;
+}
+.details{
+	background: url(../img/gear.gif) no-repeat;
+	padding-left: 25px;
+	margin-left: 209px;
+	line-height: 20px;
+	width: 77px;
+	display: block;
+	color: #a72620;
+	margin-top: -4px;
+}
+.text a:hover{
+	color: #2063a7;
+}
+.display{
+	background: url(../img/flow.jpg) no-repeat;
+	margin-left: 14px;
+	margin-top: 21px;
+	height: 153px;
+}
+.left_arrow{
+	float: left;
+	margin-left: 13px;
+	margin-top: 58px;
+}
+.jaw{
+	float: left;
+	margin-left: 21px;
+	margin-top: 27px;
+	width: 255px;
+}
+.jaw img{
+	float: left;
+	margin-top: 3px;
+	margin-left: 1px;
+}
+.jaw p{
+	padding-top: 15px;
+	margin-left: 102px;
+	letter-spacing: 0.6px;
+	line-height: 14.5px;
+}
+.jaw a{
+	float: right;
+	margin-right: 20px;
+	display: block;
+	margin-top: 6px;
+}
+.jaw a:hover{
+	color: #ec3910;
+}
+.bluecs{
+	float: left;
+	margin-left: 30px;
+	padding-top: 24px;
+	width: 251px;
+}
+.bluecs img{
+	float: left;
+}
+.bluecs p{
+    padding-left: 95px;
+    padding-top: 17px;
+    letter-spacing: 0.7px;
+}
+.bluecs a {
+	float: right;
+	margin-right: 18px;
+	display: block;
+	margin-top: 3px;
+}
+.bluecs a:hover{
+	color: #ec3910;
+}
+.graycs{
+	float: left;
+	margin-left: 24px;
+	padding-top: 20px;
+	width: 256px;
+}
+.graycs img{
+	float: left;
+}
+.graycs p{
+	margin-left: 98px;
+	padding-top: 20px;
+	letter-spacing: 0.75px;
+}
+.graycs a{
+	float: right;
+	margin-right: 16px;
+	display: block;
+	margin-top: 4px;
+}
+.graycs a:hover{
+	color: #ec3910;
+}
+.right_arrow{
+	float: left;
+	margin-left: 8px;
+	padding-top: 58px;
+}
+
+
+.down{
+	background: url(../img/double_fillet.gif) no-repeat;
+	height: 673px;
+	margin-left: 14px;
+	margin-right: 14px;
+	margin-top: 1px;
+}
+div.new{
+	clear: both;
+	float: left;
+	margin-left: 11px;
+	background: url(../img/single_fillet.gif) no-repeat 0 26px;
+	width: 225px;
+	height: 285px;
+	padding-top: 25px;
+}
+.news{
+	line-height: 32px;
+	padding-left: 63px;
+	color: #5f5f5f;
+}
+.new ul li{
+	background: url(../img/square.gif) no-repeat 0 13px;
+	padding-left: 16px;
+	margin-left: 8px;
+    padding-top:8px;
+}
+.new ul li a{
+	text-decoration: underline;
+}
+.new ul li a span{
+	display: block;
+	margin-top: 7px;
+}
+.new_faucet{
+	background: url(../img/gear.gif) no-repeat;
+	margin-left: 81px;
+	margin-top: 16px;
+	display: block;
+	padding-left: 28px;
+	line-height: 18px;
+}
+.new_faucet:hover{
+	color: #ec3910;
+}
+.products{
+	float: left;
+	margin-left: 21px;
+	margin-top: 25px;
+	width: 664px;
+	height: 640px;
+	background: #f1f1f1 url(../img/red_line.jpg) no-repeat;
+}
+.products ul{
+	margin-top: 24px;
+}
+.products ul li{
+	float: left;
+	width: 317px;
+	height: 137px;
+	border: #cecccd 1px solid;
+	margin-left: 8px;
+	margin-top: 7px;
+	background: #ffffff;
+}
+.products a:hover{
+	color: #ec3910;
+}
+.feeder{
+	margin-left: 9px;
+}
+.feeder img{
+	margin-left: 8px;
+	margin-top: 34px;
+	float: left;
+	padding-right: 14px;
+}
+.feeder h3{
+	padding-top: 18px;
+	padding-bottom: 12px;
+}
+.feeder a{
+	background: url(../img/gear.gif) no-repeat;
+	display: block;
+	margin-top: 13px;
+	line-height: 18px;
+	float: right;
+	margin-right: 45px;
+	padding-left: 28px;
+}
+.hcs img{
+	margin-left: 18px;
+	margin-top: 18px;
+	float: left;
+	padding-right: 26px;
+}
+.hcs h3{
+	padding-top: 23px;
+	padding-bottom: 12px;
+}
+.hcs a{
+	background: url(../img/gear.gif) no-repeat;
+	display: block;
+	margin-top: 14px;
+	line-height: 18px;
+	float: right;
+	margin-right: 48px;
+	padding-left: 27px;
+}
+.cone_crusher img{
+	margin-left: 20px;
+	margin-top: 11px;
+	float: left;
+	padding-right: 27px;
+}
+.cone_crusher h3{
+	padding-top: 19px;
+	padding-bottom: 12px;
+}
+.cone_crusher a{
+	background: url(../img/gear.gif) no-repeat;
+	display: block;
+	margin-top: 13px;
+	line-height: 18px;
+	float: right;
+	margin-right: 45px;
+	padding-left: 28px;
+}
+.hammer_crusher img{
+	margin-left: 23px;
+	margin-top: 14px;
+	float: left;
+	padding-right: 18px;
+}
+.hammer_crusher h3{
+	padding-top: 24px;
+	padding-bottom: 12px;
+}
+.hammer_crusher a{
+	background: url(../img/gear.gif) no-repeat;
+	display: block;
+	margin-top: 14px;
+	line-height: 18px;
+	float: right;
+	margin-right: 48px;
+	padding-left: 27px;
+}
+.products_cs img{
+	margin-left: 16px;
+	margin-top: 19px;
+	float: left;
+	padding-right: 36px;
+}
+.products_cs h3{
+	padding-top: 17px;
+	padding-bottom: 12px;
+}
+.products_cs a{
+	background: url(../img/gear.gif) no-repeat;
+	display: block;
+	margin-top: 13px;
+	line-height: 18px;
+	float: right;
+	margin-right: 45px;
+	padding-left: 28px;
+}
+.sieve img{
+	margin-left: 20px;
+	margin-top: 19px;
+	float: left;
+	padding-right: 22px;
+}
+.sieve h3{
+	padding-top: 22px;
+	padding-bottom: 12px;
+}
+.sieve a{
+	background: url(../img/gear.gif) no-repeat;
+	display: block;
+	margin-top: 14px;
+	line-height: 18px;
+	float: right;
+	margin-right: 48px;
+	padding-left: 27px;
+}
+.jaw_crusher img{
+	margin-left: 19px;
+	margin-top: 18px;
+	float: left;
+	padding-right: 30px;
+}
+.jaw_crusher h3{
+	padding-top: 18px;
+	padding-bottom: 11px;
+}
+.jaw_crusher a{
+	background: url(../img/gear.gif) no-repeat;
+	display: block;
+	margin-top: 13px;
+	line-height: 18px;
+	float: right;
+	margin-right: 45px;
+	padding-left: 28px;
+}
+.impact_crusher img{
+	margin-left: 7px;
+	margin-top: 43px;
+	float: left;
+	padding-right: 15px;
+}
+.impact_crusher h3{
+	padding-top: 22px;
+	padding-bottom: 12px;
+}
+.impact_crusher a{
+	background: url(../img/gear.gif) no-repeat;
+	display: block;
+	margin-top: 14px;
+	line-height: 18px;
+	float: right;
+	margin-right: 48px;
+	padding-left: 27px;
+}
+
+.video{
+	float: left;
+	clear: both;
+	padding-left: 10px;
+	margin-top: -338px;
+}
+
+
+.footer{
+	clear: both;
+	height: 56px;
+	background: url(../img/footer.jpg) no-repeat;
+}
+.footer p{
+	line-height: 56px;
+	margin-left: 171px;
+}
