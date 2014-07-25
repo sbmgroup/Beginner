@@ -1,0 +1,377 @@
+	@charset "utf-8";
+	/**给css充能**/
+	*{
+		margin: 0 auto 0 auto;
+	}
+	body{
+		background-color: #bfbfbf;
+	}
+	/**整个背景布局**/
+	.container{
+		width: 1003px;
+		margin:0px auto;
+		background-color: #e2e2e2;
+	}
+	/**页头**/
+	.header{
+		width: 1003px;
+		height: 77px;
+		background-color: #fff;
+	}
+	.logo{
+		float: left;
+		width: 52px;
+		height: 49px;
+		margin-left: 51px;
+		margin-top: 13px;
+	}
+	.header h1{
+		float: left;
+		font-size: 24px;
+		height: 49px;
+		margin-left: 37px;
+		margin-top: 13px;
+		line-height:49px;	/*给文字设置行高,文字会居中分布*/
+	}
+	.message{
+		float: right;
+		height: 49px;
+		margin: 13px 22px 0 0 ;
+	}
+	.menu-text{
+		list-style-type: none;
+	}
+	.message-phone{
+		height: 16px;
+		background: url(../pic/index/phone.png) no-repeat 0 0 ; 
+	}
+	.menu-text h5{
+		font-size: 10px;
+		padding-left: 24px;
+		line-height: 16px;
+	}
+	.message-mail{
+		clear: both;
+		float: right;
+		margin-top: 1px;
+		height: 12px;
+		background: url(../pic/index/mail.png) no-repeat 0 0 ; 
+	}
+	.link1 {
+		float: right;
+		font-size: 10px;
+		color:#699a1a;
+		padding-left: 24px;
+		line-height: 12px;
+	}
+	.message-redevo{
+		float: right;
+		margin-top: 2px;
+		height: 17px;
+		background: url(../pic/index/redevo.png) no-repeat 0 0 ; 
+	}
+	.link2 {
+		float: right;
+		margin-right: 3px;
+		font-size: 10px;
+		color:#08a3e3;
+		padding-left: 22px;
+		line-height: 17px;
+	}
+	.message-twitter{
+		clear: both;
+		float: right;
+		margin-top: 2px;
+		height: 14px;
+		background: url(../pic/index/twitter.png) no-repeat 0 0 ; 
+	}
+	.link3 {
+		float: right;
+		font-size: 10px;
+		color:#bb103d;
+		padding-left: 17px;
+		line-height: 17px;
+	}
+	/*******************************************************
+	*************************菜单栏*************************/
+	.menu{
+		height: 36px;
+		background-color: #a62720;
+		line-height:40px;
+	}
+	.menu ul{
+		margin-left:18px; 
+		padding:0px; 
+		list-style-type: none;		/*设置列表前无标记*/
+	} 
+	.menu li{
+		float: left;
+		height: 36px;
+	}
+	.menu a{
+		color:#fff;
+		font-size: 14px;
+		padding-left:27px;
+		display: block;			/*设置为具有块属性*/
+		text-decoration:none;	/*属性规定添加到文本的修饰（例如加下划线）*/
+	}
+	.menu span{
+		padding-right:27px;
+	}
+	/**当鼠标移动到菜单项上时，菜单变色！**/
+	.menu a:hover {
+		color:#000;
+		background: #fff url(../pic/index/door_left.png) no-repeat  left top ;
+	}
+	.menu a:hover span{
+		color:#000;
+		display: block;			/*设置为具有块属性*/
+		background: url(../pic/index/door_right.png) no-repeat right top ;
+		height:36px;
+	}
+	/***************************************************
+	*********************正文部分**********************/
+	.content-container{
+		margin: 0 22px 0 22px;
+		background-color: #fff;
+		/**实现最下面的覆盖设计**/
+		position: relative;		/**相对定位**/
+		z-index: 2;				/**position属性值为absolute、relative或fixed时，用z-index进行分层，值越大，越在上层**/
+	}
+	.pic-company{
+		float: left;
+		margin: 32px 0 0 48px ;
+	}
+	.content-top-right{
+		float: left;
+		margin:23px 0 0 46px;
+		width: 500px;
+		height: 196px;
+	}
+	.content-top-right h2{
+		font-size: 14px;
+		color: #b32b2b;
+	}
+	.hr{
+		margin-top: 16px;
+	}
+	.content-top-right p{
+		margin-top: 16px;
+		font-size: 12px;
+
+	}
+	.details{
+		margin-left: 208px;
+		height: 17px;
+		background: url(../pic/index/tool.png) no-repeat 0 0 ; 
+	}
+	.content-top-right a{
+		padding-left: 24px;
+		font-size: 12px;
+		color: #832f2f;
+		line-height: 17px;
+	}
+	/**正文中部**/
+	.content-mid{
+		clear: both;
+		margin: 0 14px 0 14px;
+		height: 153px;
+		background-color: #d9d7d8;
+	}
+	.pic-leftArrows{
+		float: left;
+		margin: 60px 0 0 14px;
+	}
+	.mid-list{
+		margin: 0;
+		padding: 0;
+		float: left;
+		width: 840px;
+		height: 132px;
+		margin: 11px 0 0 0;
+		list-style-type: none;
+	}
+	.mid-list li{
+		float: left;
+		width: 270px;
+		height: 132px;
+		margin-left: 10px;
+		background: url(../pic/index/jianbian.png) no-repeat 0 0;
+	}
+	.pic-mid-left{
+		float: left;
+		margin: 19px 10px 0 14px;
+	}
+	.mid-list p{
+		font-size: 9px;
+		margin: 32px 0px 0 10px;
+	}
+	.mid-list a{
+		float: right;
+		margin-right: 12px;
+		font-size: 9px;
+		color: #7c312b;
+	}
+	.pic-mid-mid{
+		float: left;
+		margin: 14px 10px 0 19px;
+	}
+	.pic-mid-right{
+		float: left;
+		margin: 10px 15px 0 14px;
+	}
+	.pic-rightArrows{
+		float: left;
+		margin: 60px 0 0 10px;
+	}
+	/**正文下部**/
+	.pic-down-header{
+		margin: 1px 0 0 14px;
+	}
+	/**正文下部左侧**/
+	.down-left{
+		float: left;
+		margin-left: 25px;
+		width: 225px;
+	}
+	/**左部表**/
+	.table{
+		height: 284px;
+		border: 1px solid #c6c6c6;
+	}
+	.down-left h3{
+		float: left;
+		width: 225px;
+		height: 32px;
+		text-align: center;
+		line-height: 32px;
+		background: url(../pic/index/table_header.png) no-repeat 0 0 ;
+	}
+	.down-left ul{
+		margin: 0;
+		padding: 0;
+		float: left;
+		margin: 12px 0 0 25px;
+		list-style-image: url(../pic/index/dot.gif);
+		text-decoration: underline;		/*设置文字带有下划线*/ 
+	}
+	.view{
+		float: left;
+		margin: 17px 0 0 84px;
+		height: 17px;
+		background: url(../pic/index/tool.png) no-repeat 0 0 ; 
+	}
+	.down-left a{
+		padding-left: 24px;
+		font-size: 12px;
+		color: #315784;
+		line-height: 17px;
+	}
+	/**左部视频**/
+	.pic-video{
+		float: left;
+		margin: 21px 0 0 0;
+	}
+	/**右侧产品介绍**/
+	.down-right{
+		float: left;
+		width: 668px;
+		margin: 0 0 40px 21px;
+	}
+	.down-right-top{
+		height: 6px;
+		background-color:#ae2419;
+	}
+	.product{
+		float: left;
+		background-color: #e6e4e5;
+	}
+	.product ul{
+		padding: 0;
+		margin: 16px 0 30px 0;
+		list-style-type: none;
+	}
+	.product li{
+		float: left;
+		margin: 9px 0 0 9px;
+		width: 319px;
+		height: 139px;
+		border: 1px solid #cacaca;
+		background-color: #fff;
+	}
+	.text{
+		float: right;
+		width: 182px;
+		height: 70px;
+		margin: 18px 0 0 0 ;
+ 	}
+ 	.product h3{
+ 		font-size: 11px;
+ 	}
+ 	.product p{
+ 		font-size: 9px;
+ 		margin-top: 12px;
+ 	}
+	.product-view{
+		float: right;
+		margin: 17px 46px 0 0;
+		height: 17px;
+		background: url(../pic/index/tool.png) no-repeat 0 0 ; 
+	}
+	.down-right a{
+		padding-left: 24px;
+		font-size: 12px;
+		color: #315784;
+		line-height: 17px;
+	}
+	.pic-under-1{
+		float: left;
+		margin: 36px 0 0 9px;
+	}
+	.pic-under-2{
+		float: left;
+		margin: 19px 0 0 18px;
+	}
+	.pic-under-3{
+		float: left;
+		margin: 12px 0 0 21px;
+	}
+	.pic-under-4{
+		float: left;
+		margin: 16px 0 0 24px;
+	}
+	.pic-under-5{
+		float: left;
+		margin: 21px 0 0 17px;
+	}
+	.pic-under-6{
+		float: left;
+		margin: 20px 0 0 22px;
+	}
+	.pic-under-7{
+		float: left;
+		margin: 19px 0 0 20px;
+	}
+	.pic-under-8{
+		float: left;
+		margin: 43px 0 0 9px;
+	}
+
+	/*清除浮动，使底部位置正确*/
+	.fake{
+		clear: both;
+		height: 0;
+	}
+	/***************************************************
+	***********************页脚************************/
+	.footer{
+		height: 56px;
+		background-color:#a62720;
+		line-height:56px;	
+		padding-top:10px;
+		text-align: center;
+		font-size: 12px;
+		position: relative;
+		z-index: 1;
+		margin-top: -15px;
+	}
