@@ -1,0 +1,187 @@
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+.container{
+	width:1003px;
+	height:1232px;
+	margin:0 auto;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.header{
+	height:63px;
+	margin-top:13px;
+	padding-left:51px;
+}
+.header h1{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.header h1 img{
+	float:left;
+	margin-right:37px;
+}
+.header-right{
+	margin-right:22px;
+}
+.header-right ul{
+	float:right;
+}
+.header-right ul li{
+	text-align:right;
+}
+.b{
+	padding-left:23px;
+	vertical-align:middle;
+	background:url(images/tel.gif) no-repeat;
+}
+.c{
+	margin-left:40px;
+    vertical-align:middle;
+	background:url(images/mail.gif) no-repeat;
+}
+.d{	
+    float:left;
+	margin-left:64px;
+	padding-left:24px;
+	vertical-align:middle;
+	background:url(images/redevo.gif) no-repeat;
+}
+.e{
+	margin-left:165px;
+	padding-left:18px;
+	vertical-align:middle;
+	background:url(images/twitter.gif) no-repeat;
+}
+.nav{
+	margin-top:0px;
+	height:36px;
+	background-color:#a62720;
+}
+.nav li{
+	float:left;
+	margin-left:30px;
+	font-weight:bold
+}
+.nav a{
+	text-decoration:none;
+	line-height:36px;
+	display:block;
+	color:#FFF;
+	padding-right:24px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.nav a span{
+	display:block;
+	padding-left:24px;
+}
+.nav a:hover{
+	background:url(images/bg-right.jpg) no-repeat right 6px;
+	color:#010101;
+}
+.nav a:hover span{
+	background:url(images/bg-left.jpg) no-repeat  left 6px;
+	color:#010101;
+}
+.main{
+	height:1063px;
+	background:url(images/background.jpg) repeat-y;
+}
+.zenith{
+	margin-left:68px;
+	margin-top:31px;
+	float:left;
+}
+.main-a-top{
+	height:180px;
+}
+.main-a-top h3{
+	color:#a6271e;
+	padding-left:393px;
+	padding-top:22px;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.line{
+	padding-top:10px;
+	padding-left:39px;
+	display:block;
+}
+.content{
+	width:510px;
+	padding-left:393px;
+	padding-top:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:13px;
+}
+.main-a-bottom{
+	background:url(images/tool.jpg) no-repeat;
+	width:103px;
+	height:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:600px;
+	padding-left:20px;
+}
+.main-b{
+	background:url(images/scroll.gif) no-repeat;
+	background-position:center;
+	height:198px;
+}
+.left{
+	margin-left:49px;
+	margin-top:85px;
+	float:left;
+}
+.main-b ul li{
+	float:left;
+	width:280px;}
+.main-b ul li img{
+	margin-top:50px;
+    float:left;
+    margin-left: 12px;
+}
+.main-b li p{
+	padding-top:66px;
+	margin-right:10px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.main-b li a{
+	background:url(images/tool.jpg) no-repeat;
+	padding-left:20px;
+	margin-left: 70px;
+}
+.right{
+	margin-top:85px;
+	float:right;
+	margin-right: 55px;
+}
+.new{
+	background:url(images/new.gif) no-repeat;
+	line-height:32px;
+	text-align:center;
+	width: 225px;
+    margin-left: 57px;
+}
+.main-left ul{
+	margin-left:65px;
+}
+.main-left li{
+	width:200px;
+}
+.main-left li a{
+	background:url(images/dot.jpg) no-repeat 0px 6px;
+	padding-left:17px;
+	line-height:23px;
+}
+
+	
+
+	
+
+
+	
+
+	/* CSS Document */
