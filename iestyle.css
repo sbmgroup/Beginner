@@ -1,4 +1,5 @@
 /* CSS Document */
+
 /*CSS Reset*/
 *{
 	margin:0;
@@ -59,7 +60,7 @@ h1{
 	}
 .redevo a{
 	float:left;
-	margin-left:61px;
+	margin-left:53px;
 	color:#05a5e3;
 	background:url(images/redevo.gif) no-repeat;
 	padding-left:18px;
@@ -68,6 +69,9 @@ h1{
 	color:#a62720;
 	background:url(images/twitter.gif) no-repeat;
 	padding-left:18px;
+	position:relative;
+	left:0;
+	top:-14px;
 	}
 /*end header*/
 
@@ -80,13 +84,14 @@ h1{
 .nav ul li{
 	line-height:36px;
 	font-size:15px;
+	float:left;
 	}
 .nav a{
 	text-decoration:none;
     color:#FFF;
+	display:block;
 	padding-left:23px;
 	margin-right:10px;
-	float:left;
 	}
 .home a,.nav a:hover{
 	color:#000;
@@ -203,10 +208,10 @@ h2{
 	}
 .news h3{
 	background:url(images/news.jpg) no-repeat;
-	width:225px;
+	width:224px;
 	line-height:32px;
-	padding-left:64px;
 	letter-spacing:1px;
+	margin-right:-64px;
 	}
 .news ul li{
 	background:url(images/square.gif) no-repeat 0 5px;
@@ -222,7 +227,7 @@ h2{
     float:right;
 	line-height:18px;
 	margin-top:11px;
-	margin-right:47px;
+	margin-right:25px;
 	padding-left:25px;
 	background:url(images/set.gif) left no-repeat;
 	}
@@ -277,3 +282,4 @@ h2{
 	font-size:10px;
 	}
 /*end footer*/
+
