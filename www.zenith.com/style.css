@@ -1,0 +1,264 @@
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+.container{
+	width:1003px;
+	height:1232px;
+	margin:0 auto;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.header{
+	height:63px;
+	margin-top:13px;
+	padding-left:51px;
+}
+.header h1{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.header h1 img{
+	float:left;
+	margin-right:37px;
+}
+.header-right{
+	margin-right:22px;
+	float:right;
+	width:185px;
+}
+.header-right ul li{
+	text-align:right;
+}
+.b{
+	vertical-align:middle;
+	background:url(images/tel.gif) no-repeat;
+}
+.c{
+	margin-left:32px;
+	vertical-align:middle;
+	background:url(images/mail.gif) no-repeat;
+}
+.c a{
+	color:#699a1a;
+}
+.d{	
+    float:left;
+	margin-left:64px;
+	padding-left:24px;
+	vertical-align:middle;
+	background:url(images/redevo.gif) no-repeat;
+}
+.d a{
+	color:#05a4e6;
+}
+.e{
+	margin-left:135px;
+	padding-left:18px;
+	vertical-align:middle;
+	background:url(images/twitter.gif) no-repeat;
+}
+.e a{
+	color:#bb103c
+}
+.nav{
+	height:36px;
+	background-color:#a62720;
+	padding-left:22px;
+}
+.nav li{
+	float:left;
+}
+.nav a{
+	text-decoration:none;
+	line-height:36px;
+	display:block;
+	color:#FFF;
+	padding-right:24px;
+}
+.nav a span{
+	display:block;
+	padding-left:24px;
+	font-weight:bold
+	font-family:
+}
+.nav a:hover{
+	background:url(images/bg-right.jpg) no-repeat right 6px;
+	color:#010101;
+}
+.nav a:hover span{
+	background:url(images/bg-left.jpg) no-repeat  left 6px;
+	color:#010101;
+}
+.main{
+	height:1063px;
+	background:url(images/background.jpg) repeat-y;
+}
+.zenith{
+	margin-left:68px;
+	margin-top:31px;
+	float:left;
+}
+.main-a-top{
+	height:180px;
+}
+.main-a-top h3{
+	color:#a6271e;
+	padding-left:393px;
+	padding-top:22px;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.line{
+	padding-top:10px;
+	padding-left:39px;
+	display:block;
+}
+.content{
+	width:510px;
+	padding-left:393px;
+	padding-top:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:13px;
+}
+.main-a-bottom{
+	background:url(images/tool.jpg) no-repeat;
+	height:18px;
+	margin-left:600px;
+}
+.main-a-bottom a{
+	padding-left:20px;
+	color:#a62721;
+}
+.main-b{
+	background:url(images/background-s.jpg) no-repeat;
+	background-position:center;
+	height:198px;
+}
+.left{
+	margin-left:49px;
+	margin-top:85px;
+	float:left;
+}
+.main-b ul li{
+	float:left;
+	width:280px;}
+.main-b ul li img{
+	margin-top: 40px;
+    float: left;
+    margin-left: 20px;
+}
+.main-b li p{
+	padding-top:66px;
+	margin-right:10px;
+	text-align:center;
+}
+.main-b li a{
+	background:url(images/tool.jpg) no-repeat;
+	padding-left:20px;
+	margin-left: 60px;
+	color: #a62721;
+	padding-bottom: 10px;
+}
+.right{
+	margin-top:85px;
+	float:right;
+	margin-right: 52px;
+}
+.new{
+	background:url(images/new.gif) no-repeat;
+	line-height:32px;
+	text-align:center;
+	width: 225px;
+    margin-left: 57px;
+}
+.main-left{
+	float:left;
+}
+.main-left-a{
+	border:1px solid #cbc9ca;
+	margin-left:57px;
+	width: 223px;
+}
+.main-left ul{
+	margin-left:20px;
+}
+.main-left li{
+	width:180px;
+}
+.main-left li a{
+	background:url(images/dot.jpg) no-repeat 0px 10px;
+	padding-left:17px;
+	line-height:23px;
+	display:inline-block;
+}
+.tool-a{
+	background:url(images/tool.jpg) no-repeat;
+	padding-left:25px;
+	margin-left: 90px;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+.main-left-bottom p{
+	background:url(images/sound.jpg) no-repeat 55px;
+	line-height: 30px;
+    padding-left: 70px;
+	margin-top: 10px;
+}
+.main-left-bottom img{
+	margin-left: 55px;
+}
+.main-right{
+	background:url(images/line-a.jpg) repeat-x;
+	width:665px;
+	float:right;
+	margin-right:50px;
+	padding-top:24px;
+}
+.main-right li{
+	float:left;
+	height:139px;
+	width:319px;
+	background:url(images/background-w.jpg) no-repeat;
+	margin-left:9px;
+}
+.main-right img{
+	float:left;
+	margin-top: 16px;
+    margin-left: 22px;
+    padding-right: 15px;
+}
+.main-right li h3{
+	padding-top:20px;
+}
+.main-right li p{
+	width:300px;
+}
+.small{
+	background:url(images/tool.jpg) no-repeat;
+	padding-left:25px;
+	margin-left: 75px;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+.line-b{
+	background:url(images/line-b.jpg) repeat-y;
+	height:15px;
+}
+.footer{
+	text-align:center;
+	background:#a62720;
+	height:56px;
+}
+.footer p{
+	line-height:41px;
+}
+	
+
+	
+
+
+	
+
+	/* CSS Document */
