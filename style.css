@@ -237,9 +237,10 @@ h4 {
 	margin-left:20px;
 	float:left;
 }
-#faucet ul{
+#faucet ul {
 	padding-left:10px;
-	padding-top:16px;}
+	padding-top:16px;
+}
 #faucet ul li {
 	height:136px;
 	width:317px;
@@ -251,35 +252,36 @@ h4 {
 	border-style:solid;
 	border-width:1px;
 }
-h6{
+h6 {
 	padding-left: 136px;
-margin-top: -105px;}
-#faucet ul li img{
-	padding-top:9px;}
-#faucet ul li p{
+	margin-top: -105px;
+}
+#faucet ul li img {
+	padding-top:9px;
+}
+#faucet ul li p {
 	padding-left:136px;
 	padding-top:12px;
-	}
-	#faucet ul li a{
-		display:block;
-		margin-left:176px;
-		background:url(img/view.png) no-repeat;
-		padding-left:27px;
-padding-top: 4px;
-margin-top: 10px;
-color:#3360a3;
 }
-#footer{
+#faucet ul li a {
+	display:block;
+	margin-left:176px;
+	background:url(img/view.png) no-repeat;
+	padding-left:27px;
+	padding-top: 4px;
+	margin-top: 10px;
+	color:#3360a3;
+}
+#footer {
 	height:56px;
 	width:1003px;
 	background:#a62720;
-		position: absolute;
-z-index: -1;
-	}
-#footer p{
+	position: absolute;
+	z-index: -1;
+}
+#footer p {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:10px;
 	padding-top:28px;
 	text-align:center;
-	
 }
