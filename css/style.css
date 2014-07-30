@@ -16,6 +16,10 @@ body{
 	padding-bottom: 17px;
 }
 .logo{
+	text-indent: -9999em;
+	background: url(../img/logo.jpg) no-repeat 0 0;
+	height: 49px;
+	width: 52px;
 	margin-left: 51px;
 	float: left;
 }
@@ -333,7 +337,7 @@ div.new{
 	color: #ec3910;
 }
 .feeder{
-	margin-left: 9px;
+	margin-left: 1px;
 }
 .feeder img{
 	margin-left: 8px;
@@ -410,6 +414,9 @@ div.new{
 	float: right;
 	margin-right: 48px;
 	padding-left: 27px;
+}
+.products ul li.products_cs,.products ul li.sieve{
+	margin-top: 11px;
 }
 .products_cs img{
 	margin-left: 16px;
@@ -489,10 +496,14 @@ div.new{
 }
 
 .video{
+	background: url(../img/video.jpg) no-repeat;
+	text-indent: -9999px;
+	height: 226px;
+	width: 227px;
 	float: left;
 	clear: both;
-	padding-left: 10px;
 	margin-top: -338px;
+	margin-left: 10px;
 }
 
 
