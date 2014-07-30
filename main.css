@@ -1,21 +1,20 @@
 @charset "utf-8";
-/* CSS Reset */
-* {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
 body {
 	margin: 0 auto;
-	width: 1003px;
 	background: #ccc;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
 /* head */
 .container {
-	width: 1003px;
-	height: 1217px;
+	width:1003px;
+	height: 1232px;
 	margin: 0 auto;
 	background: #e6e6e6;
 }
@@ -24,29 +23,33 @@ body {
 	height: 49px;
 	padding-top: 13px;
 	padding-bottom:15px;
+	width:1003px;
+   
 }
-/*.logo {
-	float: left;
-	margin-left: 51px;
-}*/
 h3.logo {
 	float: left;
 	width: 52px;
 	height: 49px;
-	background: url(images/logo.png) 0 0 no-repeat;
+	background: url(images/logo.jpg) 0 0 no-repeat;
 	text-indent: -9999px;
 	margin-left: 51px;
+	display:inline;
+	 
 }
-.head_title h1 {
+.head h1 {
 	float: left;
 	padding-left: 37px;
 	font-size: 26px;
 	line-height: 49px;
+	display:inline;
+
 }
 .contact {
-	float: right;
-	margin-right: 22px;
+	display:inline;
+	float: left;
+	margin-left:338px;
 	text-align: right;
+	
 }
 .contact a:hover {
 	color: #F0F;
@@ -67,17 +70,21 @@ h3.logo {
 }
 .redevo {
 	background: url(images/redevo.png) no-repeat;
-	float: left;
-	margin-left: 66px;
+	/*float: left;*/
+	margin-left: 67px;
 	padding-left: 22px;
 	color: #07a5e6;
+	
+	
 }
 .twitter {
 	background: url(images/twitter.png) no-repeat;
 	padding-left: 18px;
-	float: left;
+	/*float: left;*/
 	color: #ba0f3b;
 	margin-left: 4px;
+	display:inline-block;
+	
 }
 /* nav */
 
@@ -93,7 +100,7 @@ h3.logo {
 }
 #home a, .nav a:hover span {
 	color: #000;
-	background: url(images/bg_left.jpg) no-repeat left 6px;/*font-weight: bold;*/
+	background: url(images/bg_left.jpg) no-repeat left 6px;
 }
 #home a {
 	display: block;
@@ -121,7 +128,7 @@ h3.logo {
 	text-decoration: none;
 	line-height: 36px;
 }
-/*company*/
+
 .body{
 	width:1003px;
 	height:1063px;
@@ -135,7 +142,7 @@ h3.logo {
 	}
 .wapper_right{
 	background:url(images/wrapper_right.jpg) no-repeat 0 0;
-		float:left;
+		float:right;
 		height:1063px;
 		width:22px;
 		}
@@ -241,8 +248,8 @@ a.mark:hover {
 }
 .shadow {
 	float: left;
-	margin-top:3px;
-	margin-right:13px;
+	margin-top:6px;
+	margin-right:: 13px;
 }
 /*  about_left  */
 .about_left {
@@ -254,7 +261,7 @@ a.mark:hover {
 	float: left;
 	height: 284px;
 	width: 223px;
-	margin: 12px 21px 20px 25px;
+	margin: 12px 21px 20px 10px;
 	border: 1px solid #cbc9ca;
 	border-radius: 0 2px 0 0;
 }
@@ -303,7 +310,7 @@ a.view:hover {
 .left_radio {
 	float: left;
 	width: 227px;
-	margin-left: 24px;
+	margin-left: 10px;
 }
 /*right_machine*/
 
@@ -311,32 +318,33 @@ a.view:hover {
 	background: url(images/red_bar.png) repeat-x;
 	background-color: #f1f1f1;
 	float: right;
-	margin-right: 24px;
+	margin-right: 16px;
 	width: 664px;
 	height: 645px;
 	margin-top: 12px;
+	margin-left:-16px;
 }
 .sort {
 	float: left;
 	margin-left: 5px;
 	margin-right: 20px;
-	margin-top:2px;
+	margin-top:3px;
 }
 .right_machine ul {
 	padding-top: 31px;
-	padding-left: 9px;
+	padding-left: 10px;
 }
 .right_machine ul li {
 	background: #FFF;
 	border: #dcdadb 1px solid;
 	float: left;
-	height: 122px;
-	margin: 0px 8px 8px 0px;
-	padding-top: 15px;
+	height: 130px;
+	margin: -8px 8px -3px 0;
+	padding-top: -3px;
 	width: 317px;
 }
 .faucet {
-	margin-top: -1px;
+	margin-top: 15px;
 	margin-left: 32px;
 	text-align: left;
 	margin-bottom: 7px;
