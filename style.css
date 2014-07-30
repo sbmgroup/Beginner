@@ -27,11 +27,20 @@ a:hover{
 	height:77px;
 	background:#FFF;
 	}
-.logo{
+/*.logo{
 	margin-left:51px;
 	margin-top:13px;
 	float:left;
-	}
+	}*/
+.logo{
+	margin-left:51px;
+	margin-top:13px;
+	width:52px;
+	height:49px;
+	background:url(images/logo.jpg) 0 0 no-repeat;
+	text-indent:-9999px;
+	float:left;
+	}	
 .header h1{
 	line-height:43px;
 	font-size:26px;
@@ -211,7 +220,7 @@ h2{
 	clear:both;
 	float:left;
 	margin-top:26px;
-	margin-left:25px;
+	margin-left:12px;
 	width:225px;
 	height:530px;
 	background:url(images/single%20fillet.gif) no-repeat 0 0;
@@ -255,8 +264,7 @@ h2{
 	margin-left:18px;
 	margin-top:26px;
 	float:left;
-	background:url(images/redline.gif) no-repeat;
-	background-color:#f1f1f1;
+	background:url(images/redline.gif) #f1f1f1 no-repeat;
     }
 #right ul{
 	clear:both;
@@ -271,22 +279,22 @@ h2{
 	margin-left:9px;
 	margin-bottom:9px;
 	float:left;}
-#vibfeeder{
-	background:url(images/machine/feeder.gif);}
+#vibratingfeeder{
+	background:url(images/machine/vibratingfeeder.gif);}
 #hpccrusher{
-	background:url(images/machine/crushertwo.gif);}
+	background:url(images/machine/hpccrusher.gif);}
 #csconecrusher{
-	background:url(images/machine/three.gif);}	
-#ee{
-	background:url(images/machine/four.gif);}
+	background:url(images/machine/csconecrusher.gif);}	
+#hammercrusher{
+	background:url(images/machine/hammercrusher.gif);}
 #hpccone{
-	background:url(images/machine/five.gif);}
-#vsicrusher{
-	background:url(images/machine/six.gif);}
+	background:url(images/machine/hpccone.gif);}
+#vibrating-screen{
+	background:url(images/machine/vibrating-screen.gif);}
 #pew{
-	background:url(images/machine/serven.gif);}	
-#eee{
-	background:url(images/machine/eight.gif);}
+	background:url(images/machine/pewjawcrusher.gif);}	
+#verticalshaftimpactcrusher{
+	background:url(images/machine/verticalshaftimpactcrusher.gif);}
 h3{
 	color:#333333;
 	margin-left:132px;
